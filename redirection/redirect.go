@@ -13,10 +13,9 @@ func Redirect(w http.ResponseWriter, r *http.Request) {
 	
 	key := r.URL.Path[1:]
 	originalURL, exists := shorten.KeyToOrignal[key]
-	if !exists {
+	if !exists{
 		http.Error(w, "Short URL not found", http.StatusNotFound)
 		return
 	}
-
 	http.Redirect(w, r, originalURL, http.StatusFound)
 }

@@ -42,8 +42,8 @@ func TestGenerateURLString(t *testing.T) {
 }
 
 func TestMakeShort(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(MakeShort))
 	t.Run("WrongMethodGET", func(t *testing.T) {
-		server := httptest.NewServer(http.HandlerFunc(MakeShort))
 		resp, err := http.Get(server.URL)
 
 		if err != nil {
@@ -54,7 +54,7 @@ func TestMakeShort(t *testing.T) {
 	})
 
 	t.Run("InvalidUrl", func(t *testing.T) {
-		server := httptest.NewServer(http.HandlerFunc(MakeShort))
+		// server := httptest.NewServer(http.HandlerFunc(MakeShort))
 		data := url.Values{}
 		data.Set("url", "ht/w.youtube.com/watch?v=MDy7JQN5MN4")
 		
@@ -68,15 +68,14 @@ func TestMakeShort(t *testing.T) {
 	})
 
 	t.Run("RepeatRequestSameURL", func(t *testing.T) {
-		server := httptest.NewServer(http.HandlerFunc(MakeShort))
+		// server := httptest.NewServer(http.HandlerFunc(MakeShort))
 		data := url.Values{}
 		data.Set("url", "https://www.youtube.com/watch?v=MDy7JQN5MN4")
-		
 		resp1, err := http.PostForm(server.URL,data)
 		if err != nil {
 			t.Error(err)
 		}
-
+		
 		resp2, err := http.PostForm(server.URL,data)
 		if err != nil {
 			t.Error(err)

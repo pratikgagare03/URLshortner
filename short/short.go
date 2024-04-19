@@ -59,7 +59,9 @@ func MakeShort(w http.ResponseWriter, r *http.Request){
 	if !ok {
 		key, _ = GenerateURLString(inputURL)
 	}
-	shortURL := "http://localhost:8080/" + key
+
+
+	shortURL := "http://" + r.Host+ "/" +key
 
 	DomainCounter[parsedURL.Hostname()]++
 	OrignalToKey[inputURL] = key
