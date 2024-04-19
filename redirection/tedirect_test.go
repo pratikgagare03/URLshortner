@@ -25,7 +25,6 @@ func TestRedirect(t *testing.T) {
 	})
 
 	t.Run("EmptyUrl", func(t *testing.T) {
-		// server := httptest.NewServer(http.HandlerFunc(Redirect))
 		resp, err := http.Get(server.URL)
 
 		if err != nil {
@@ -35,8 +34,6 @@ func TestRedirect(t *testing.T) {
 		assert.Equal(t, http.StatusNotFound, resp.StatusCode)
 	})
 	t.Run("WrongUrl", func(t *testing.T) {
-		// server := httptest.NewServer(http.HandlerFunc(Redirect))
-
 		resp, err := http.Get(server.URL + "/12vdsqA")
 
 		if err != nil {
@@ -60,6 +57,7 @@ func TestRedirect(t *testing.T) {
 		data.Set("url", inputURL)
 		input := ts.URL + "/makeshort"
 		resp1, _ := http.PostForm(input, data)
+
 		databyte, _ := io.ReadAll(resp1.Body)
 		shortURL := strings.TrimSuffix(strings.TrimPrefix(string(databyte),"Shortened URL: "),"\n")
 
