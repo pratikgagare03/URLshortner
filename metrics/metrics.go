@@ -40,5 +40,4 @@ func GetMetrics(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "%s: %d\n", kv.Key, kv.Value)
 	}
 
-	w.WriteHeader(http.StatusOK)
 }

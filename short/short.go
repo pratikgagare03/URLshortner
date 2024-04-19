@@ -49,17 +49,20 @@ func MakeShort(w http.ResponseWriter, r *http.Request){
 	}
 
 	inputURL := r.FormValue("url")
+
 	parsedURL, err := url.ParseRequestURI(inputURL)
+	
 	if err != nil {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
 		return
 	}
 
 	key, ok := OrignalToKey[inputURL]
-	if !ok {
+	for !ok {
 		key, _ = GenerateURLString(inputURL)
+		_, ok = KeyToOrignal[key]
+		ok = !ok
 	}
-
 
 	shortURL := "http://" + r.Host+ "/" +key
 
