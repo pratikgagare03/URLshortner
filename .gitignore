@@ -1,0 +1,7 @@
+/short/coverage.html
+/redirection/coverage.html
+/metrics/coverage.html
+
+/short/*.out
+/redirection/*.out
+/metrics/*.out

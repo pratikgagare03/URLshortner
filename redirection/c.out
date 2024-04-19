@@ -1,6 +1,0 @@
-mode: set
-urlshortner/redirection/redirect.go:8.55,9.32 1 1
-urlshortner/redirection/redirect.go:9.32,12.3 2 1
-urlshortner/redirection/redirect.go:14.2,16.12 3 1
-urlshortner/redirection/redirect.go:16.12,19.3 2 1
-urlshortner/redirection/redirect.go:21.2,21.52 1 0
