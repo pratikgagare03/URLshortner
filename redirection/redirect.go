@@ -7,10 +7,10 @@ import (
 )
 
 func Redirect(w http.ResponseWriter, r *http.Request) {
-	logger.Logger.Info().Msg("Entered in Redirect Fuction")
+	logger.Logs.Info().Msg("Entered in Redirect Fuction ")
 	if r.Method != http.MethodGet {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		logger.Logger.Error().Msgf("Got wrong method for Redirect request %s", r.Method)
+		logger.Logs.Error().Msgf("Got wrong method for Redirect request %s", r.Method)
 		return
 	}
 
@@ -21,5 +21,5 @@ func Redirect(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	http.Redirect(w, r, originalURL, http.StatusFound)
-	logger.Logger.Info().Msg("Exited from redirect Fuction")
+	logger.Logs.Info().Msg("Exited from redirect Fuction")
 }

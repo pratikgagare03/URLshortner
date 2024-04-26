@@ -9,10 +9,10 @@ import (
 )
 
 func GetMetrics(w http.ResponseWriter, r *http.Request) {
-	logger.Logger.Info().Msg("Entered in GetMetrics Fuction")
+	logger.Logs.Info().Msg("Entered in GetMetrics Fuction")
 	if r.Method != http.MethodGet {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		logger.Logger.Error().Msgf("Got wrong method for GetMetrics request %s", r.Method)
+		logger.Logs.Error().Msgf("Got wrong method for GetMetrics request %s", r.Method)
 		return
 	}
 
@@ -42,5 +42,5 @@ func GetMetrics(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "%s: %d\n", kv.Key, kv.Value)
 	}
 
-	logger.Logger.Info().Msg("Exited from GetMetrics Fuction")
+	logger.Logs.Info().Msg("Exited from GetMetrics Fuction")
 }

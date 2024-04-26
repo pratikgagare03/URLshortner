@@ -1,0 +1,65 @@
+
+{"level":"info","time":"2024-04-26T16:26:47+05:30","message":"Started Main"}
+
+{"level":"info","time":"2024-04-26T16:27:27+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T16:27:27+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T16:33:29+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T16:33:33+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-26T16:33:33+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-26T16:33:33+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T16:33:36+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T16:33:36+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T16:34:22+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T16:34:22+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-04-26T17:04:51+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T17:04:51+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T17:05:02+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-26T17:05:02+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-26T17:05:02+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:05:10+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:05:10+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:11:40+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:11:40+05:30","message":"Exited from redirect Fuction"}
+
+{"level":"info","time":"2024-04-26T17:30:50+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T17:30:50+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T17:30:58+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-26T17:30:58+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-26T17:30:58+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:31:06+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:06+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:19+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:19+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:46+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:46+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:51+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T17:31:51+05:30","message":"Exited from redirect Fuction"}
+
+{"level":"info","time":"2024-04-26T17:34:31+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T17:34:31+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T17:34:35+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-26T17:34:35+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-26T17:34:35+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:36+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:36+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:36+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:36+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:38+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:39+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:39+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:39+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:39+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:40+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:40+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:40+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:40+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:41+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:41+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:42+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T17:34:42+05:30","message":"Exited from Short Fuction"}

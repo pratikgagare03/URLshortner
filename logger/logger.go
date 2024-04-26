@@ -6,7 +6,7 @@ import (
 	"github.com/rs/zerolog"
 )
 
-var Logger zerolog.Logger
+var Logs zerolog.Logger
 var File *os.File
 
 func init() {
@@ -20,7 +20,7 @@ func init() {
 		panic(err)
 	}
 
-	Logger = zerolog.New(File).With().Timestamp().Logger()
-	// Logger.Info().Msg("Logger Initialized")
+	Logs = zerolog.New(File).With().Timestamp().Logger()
+	Logs.Info().Msg("Logger Initialized")
 
 }

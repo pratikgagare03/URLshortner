@@ -43,10 +43,10 @@ func GenerateURLString(inputURL string) (string, error) {
 }
 
 func MakeShort(w http.ResponseWriter, r *http.Request) {
-	logger.Logger.Info().Msg("Entered in Short Fuction")
+	logger.Logs.Info().Msg("Entered in Short Fuction")
 	if r.Method != http.MethodPost {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		logger.Logger.Error().Msgf("Got wrong method for MakeShort request%s", r.Method)
+		logger.Logs.Error().Msgf("Got wrong method for MakeShort request%s", r.Method)
 		return
 	}
 
@@ -56,14 +56,14 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		http.Error(w, "Invalid URL", http.StatusBadRequest)
-		logger.Logger.Error().Msgf("Got invalid URL %s", err)
+		logger.Logs.Error().Msgf("Got invalid URL %s", err)
 		return
 	}
 
 	key, ok := OrignalToKey[inputURL]
 	for !ok {
 		key, _ = GenerateURLString(inputURL)
-		logger.Logger.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
+		logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
 		_, ok = KeyToOrignal[key]
 		ok = !ok
 	}
@@ -76,5 +76,5 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 
 	w.WriteHeader(http.StatusOK)
 	fmt.Fprintf(w, "Shortened URL: %s\n", shortURL)
-	logger.Logger.Info().Msg("Exited from Short Fuction")
+	logger.Logs.Info().Msg("Exited from Short Fuction")
 }

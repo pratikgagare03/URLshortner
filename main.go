@@ -11,16 +11,17 @@ import (
 
 func main() {
 	defer logger.File.Close()
-	logger.Logger.Info().Msg("Started Main")
+	logger.Logs.Info().Msg("Started Main")
+
 	http.HandleFunc("/makeshort", short.MakeShort)
 	http.HandleFunc("/", redirection.Redirect)
 	http.HandleFunc("/metrics", metrics.GetMetrics)
 
 	fmt.Printf("localhost started at port:8080")
 	err := http.ListenAndServe(":8080", nil)
-	if(err!=nil){
-		logger.Logger.Error().Err(err)
+	if err != nil {
+		logger.Logs.Error().Err(err)
 		return
 	}
-	logger.Logger.Info().Msg("Main Function over")
+	logger.Logs.Info().Msg("Main Function over")
 }
