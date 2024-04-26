@@ -1,0 +1,53 @@
+{"level":"info","time":"2024-04-26T15:08:50+05:30","message":"Info message"}
+{"level":"info","time":"2024-04-26T15:16:36+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T15:18:00+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T15:19:50+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-26T15:23:57+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:31:11+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:31:19+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:31:19+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:33:43+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:33:51+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:33:51+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:33:54+05:30","message":"Entered in Redirect Fuction"}
+{"level":"info","time":"2024-04-26T15:33:54+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-26T15:34:02+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-04-26T15:34:02+05:30","message":"Exited from Getmetrics Fuction"}
+{"level":"info","time":"2024-04-26T15:37:38+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:37:44+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:37:44+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:37:50+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:37:50+05:30","message":"Got wrong method GET"}
+{"level":"info","time":"2024-04-26T15:39:35+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:39:50+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:39:50+05:30","message":"Got wrong method GET"}
+{"level":"info","time":"2024-04-26T15:39:55+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:39:55+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:10+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:10+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:10+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:10+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:41+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:41+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:42+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:42+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:50+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:50+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-26T15:40:55+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:40:55+05:30","message":"Got invalid URL &{%!e(string=parse) %!e(string=https) %!e(*errors.errorString=&{invalid URI for request})}"}
+{"level":"info","time":"2024-04-26T15:40:56+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:40:56+05:30","message":"Got invalid URL &{%!e(string=parse) %!e(string=https) %!e(*errors.errorString=&{invalid URI for request})}"}
+{"level":"info","time":"2024-04-26T15:42:04+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:42:04+05:30","message":"Got invalid URL &{%!e(string=parse) %!e(string=https) %!e(*errors.errorString=&{invalid URI for request})}"}
+{"level":"info","time":"2024-04-26T15:42:15+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:42:19+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:42:19+05:30","message":"Got invalid URL parse \"https\": invalid URI for request"}
+
+{"level":"info","time":"2024-04-26T15:53:11+05:30","message":"Started Main"}
+
+{"level":"info","time":"2024-04-26T15:56:09+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-26T15:56:12+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-04-26T15:56:12+05:30","message":"Got invalid URL parse \"https\": invalid URI for request"}
+{"level":"info","time":"2024-04-26T15:56:24+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-26T15:56:24+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-26T15:56:24+05:30","message":"Exited from Short Fuction"}

@@ -4,14 +4,16 @@ import (
 	"fmt"
 	"net/http"
 	"sort"
+	"urlshortner/logger"
 	short "urlshortner/short"
 )
 
 func GetMetrics(w http.ResponseWriter, r *http.Request) {
-
+	logger.Logger.Info().Msg("Entered in GetMetrics Fuction")
 	if r.Method != http.MethodGet {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
-		return 
+		logger.Logger.Error().Msgf("Got wrong method for GetMetrics request %s", r.Method)
+		return
 	}
 
 	mapLen := min(3, len(short.DomainCounter))
@@ -40,4 +42,5 @@ func GetMetrics(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "%s: %d\n", kv.Key, kv.Value)
 	}
 
+	logger.Logger.Info().Msg("Exited from GetMetrics Fuction")
 }

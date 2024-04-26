@@ -14,7 +14,7 @@ testscover:
 
 testscoverhtml:
 	@go test -coverprofile=tests/coverage.out ./...
-	@go tool cover -html=tests/coverage.out -o _tests/coverage.html
+	@go tool cover -html=tests/coverage.out -o tests/coverage.html
 	
 clear:
 	@rm -f main
