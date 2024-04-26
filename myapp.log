@@ -51,3 +51,5 @@
 {"level":"info","time":"2024-04-26T15:56:24+05:30","message":"Entered in Short Fuction"}
 {"level":"debug","time":"2024-04-26T15:56:24+05:30","message":"Recieved a key of type string from GenerateURLString"}
 {"level":"info","time":"2024-04-26T15:56:24+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-04-26T16:09:52+05:30","message":"Started Main"}
