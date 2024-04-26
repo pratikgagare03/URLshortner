@@ -12,13 +12,13 @@ testscover:
 	@cd short;go test -cover
 	@cd redirection;go test -cover
 
-testcoverhtml:
-	@go test -coverprofile=_tests/coverage.out ./...
-	@go tool cover -html=_tests/coverage.out -o _tests/coverage.html
+testscoverhtml:
+	@go test -coverprofile=tests/coverage.out ./...
+	@go tool cover -html=tests/coverage.out -o _tests/coverage.html
 	
 clear:
 	@rm -f main
-	@rm -f _tests/*
+	@rm -f tests/*
 
 tidy:
 	@go mod tidy
