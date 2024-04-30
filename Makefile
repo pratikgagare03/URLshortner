@@ -1,6 +1,13 @@
+
 run:
 	@go build main.go
 	@./main
+
+dockerBuild:
+	@sudo docker build -t urlshortner .
+
+dockerRun:
+	@sudo docker run -p 8080:8080 -t urlshortner
 
 tests:
 	@cd metrics;go test
