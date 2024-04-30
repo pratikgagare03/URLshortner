@@ -71,3 +71,84 @@
 {"level":"info","time":"2024-04-30T10:33:16+05:30","message":"Exited from Short Fuction"}
 {"level":"info","time":"2024-04-30T10:33:20+05:30","message":"Entered in Redirect Fuction "}
 {"level":"info","time":"2024-04-30T10:33:20+05:30","message":"Exited from redirect Fuction"}
+
+{"level":"info","time":"2024-04-30T15:32:22+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T15:32:22+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-30T15:34:49+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:34:49+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:34:49+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:34:53+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-30T15:34:53+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:34:57+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:34:57+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:34:57+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:01+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:35:01+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:35:01+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:05+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:35:05+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:35:05+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:09+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:35:09+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:35:09+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:18+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-04-30T15:35:18+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-04-30T15:35:35+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:35+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:35:44+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-04-30T15:35:44+05:30","message":"Exited from GetMetrics Fuction"}
+
+{"level":"info","time":"2024-04-30T15:58:55+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T15:58:55+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-30T15:59:03+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:59:03+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:59:03+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:07+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:59:07+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:59:07+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:10+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:59:10+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:59:10+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:14+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:59:14+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:59:14+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:17+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T15:59:17+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T15:59:17+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:19+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:19+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:25+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:25+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:30+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:30+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T15:59:35+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T15:59:35+05:30","message":"Exited from redirect Fuction"}
+{"level":"info","time":"2024-04-30T15:59:46+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-04-30T15:59:46+05:30","message":"Exited from GetMetrics Fuction"}
+
+{"level":"info","time":"2024-04-30T16:13:12+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T16:13:12+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-30T16:13:18+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T16:13:18+05:30","message":"Required %!d(MISSING) iterations for g=generating unique key"}
+{"level":"debug","time":"2024-04-30T16:13:18+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T16:13:18+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T16:13:22+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T16:13:22+05:30","message":"Required %!d(MISSING) iterations for g=generating unique key"}
+{"level":"debug","time":"2024-04-30T16:13:22+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T16:13:22+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T16:13:22+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T16:13:22+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T16:13:22+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T16:13:23+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T16:13:23+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T16:13:23+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-04-30T16:14:22+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T16:14:22+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-30T16:14:25+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T16:14:25+05:30","message":"Required 1 iterations for g=generating unique key"}
+{"level":"debug","time":"2024-04-30T16:14:25+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T16:14:25+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-04-30T17:08:01+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T17:08:01+05:30","message":"Started Main"}

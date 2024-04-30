@@ -61,12 +61,15 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 	}
 
 	key, ok := OrignalToKey[inputURL]
-	for !ok {
+	cnt:=1
+	for !ok{
 		key, _ = GenerateURLString(inputURL)
-		logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
+		logger.Logs.Debug().Msgf("Required %v iterations for generating unique key", cnt)
 		_, ok = KeyToOrignal[key]
 		ok = !ok
+		cnt++
 	}
+	logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
 
 	shortURL := "http://" + r.Host + "/" + key
 

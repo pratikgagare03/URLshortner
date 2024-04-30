@@ -1,4 +1,3 @@
-
 run:
 	@go build main.go
 	@./main
@@ -7,8 +6,11 @@ dockerBuild:
 	@sudo docker build -t urlshortner .
 
 dockerRun:
-	@sudo docker run -p 8080:8080 -t urlshortner
+	@sudo docker run --name urlshortner1 -p 8080:8080 -t urlshortner
 
+dockerStop:
+	@sudo docker stop urlshortner1
+	
 tests:
 	@cd metrics;go test
 	@cd short;go test
