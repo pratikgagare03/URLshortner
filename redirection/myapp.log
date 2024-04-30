@@ -1,0 +1,21 @@
+
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Entered in Redirect Fuction "}
+{"level":"error","time":"2024-04-30T10:33:41+05:30","message":"Got wrong method for Redirect request POST"}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T10:33:41+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T10:33:41+05:30","message":"Entered in Redirect Fuction "}
+
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Entered in Redirect Fuction "}
+{"level":"error","time":"2024-04-30T10:36:24+05:30","message":"Got wrong method for Redirect request POST"}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T10:36:24+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:36:24+05:30","message":"Exited from redirect Fuction"}

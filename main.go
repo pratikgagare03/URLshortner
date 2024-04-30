@@ -14,7 +14,7 @@ func main() {
 	logger.Logs.Info().Msg("Started Main")
 
 	http.HandleFunc("/makeshort", short.MakeShort)
-	http.HandleFunc("/", redirection.Redirect)
+	http.HandleFunc("/{key}", redirection.Redirect)
 	http.HandleFunc("/metrics", metrics.GetMetrics)
 
 	fmt.Printf("localhost started at port:8080")

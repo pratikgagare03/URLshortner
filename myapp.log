@@ -63,3 +63,11 @@
 {"level":"info","time":"2024-04-26T17:34:41+05:30","message":"Exited from Short Fuction"}
 {"level":"info","time":"2024-04-26T17:34:42+05:30","message":"Entered in Short Fuction"}
 {"level":"info","time":"2024-04-26T17:34:42+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-04-30T10:32:16+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-04-30T10:32:16+05:30","message":"Started Main"}
+{"level":"info","time":"2024-04-30T10:33:16+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-04-30T10:33:16+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-04-30T10:33:16+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-04-30T10:33:20+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-04-30T10:33:20+05:30","message":"Exited from redirect Fuction"}

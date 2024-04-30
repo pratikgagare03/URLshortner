@@ -47,7 +47,7 @@ func TestRedirect(t *testing.T) {
 		mux := http.NewServeMux()
 
 		mux.HandleFunc("/makeshort", short.MakeShort)
-		mux.HandleFunc("/", Redirect)
+		mux.HandleFunc("/{key}", Redirect)
 
 		ts := httptest.NewServer(mux)
 		defer ts.Close()
