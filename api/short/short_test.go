@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"net/url"
+	"os"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -14,6 +15,7 @@ import (
 
 
 func TestGenerateURLString(t *testing.T) {
+	os.Setenv("DB_NO", "0")
 	t.Run("TestEmptyInput", func (t* testing.T)  {
 		input := ""
 		_, err := GenerateURLString(input)

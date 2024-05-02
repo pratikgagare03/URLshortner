@@ -33,3 +33,11 @@
 {"level":"error","time":"2024-04-30T15:30:03+05:30","message":"Got wrong method for GetMetrics request POST"}
 {"level":"info","time":"2024-04-30T15:30:03+05:30","message":"Entered in GetMetrics Fuction"}
 {"level":"info","time":"2024-04-30T15:30:03+05:30","message":"Exited from GetMetrics Fuction"}
+
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-02T15:09:39+05:30","message":"Got wrong method for GetMetrics request POST"}
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T15:09:39+05:30","message":"Exited from GetMetrics Fuction"}

@@ -1,15 +1,16 @@
 run:
-	@go build main.go
-	@./main
+	@cd api;go build main.go
+	@sudo systemctl start redis
+	@cd api; ./main
 
-dockerBuild:
-	@sudo docker build -t urlshortner .
+dcbuild:
+	@sudo docker-compose build
 
-dockerRun:
-	@sudo docker run --name urlshortner1 -p 8080:8080 -t urlshortner
+dcup:
+	@sudo docker-compose up -d
 
-dockerStop:
-	@sudo docker stop urlshortner1
+dcdown:
+	@sudo docker-compose down
 	
 tests:
 	@cd metrics;go test
@@ -26,8 +27,8 @@ testscoverhtml:
 	@go tool cover -html=tests/coverage.out -o tests/coverage.html
 	
 clear:
-	@rm -f main
-	@rm -f tests/*
+	@rm -f api/main
+	@rm -f api/tests/*
 
 tidy:
 	@go mod tidy

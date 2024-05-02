@@ -1,11 +1,11 @@
-/short/coverage.html
-/redirection/coverage.html
-/metrics/coverage.html
+api/short/coverage.html
+api/redirection/coverage.html
+api/metrics/coverage.html
 
-/short/*.out
-/redirection/*.out
-/metrics/*.out
+api/short/*.out
+api/redirection/*.out
+api/metrics/*.out
 
-/main
+api/main
 
 tests/

@@ -53,3 +53,5 @@
 {"level":"info","time":"2024-04-30T15:30:03+05:30","message":"Exited from Short Fuction"}
 {"level":"info","time":"2024-04-30T15:30:03+05:30","message":"Entered in Short Fuction"}
 {"level":"info","time":"2024-04-30T15:30:03+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-05-02T15:36:10+05:30","message":"Logger Initialized"}

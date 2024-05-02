@@ -21,13 +21,12 @@ func TestGetMetrics(t *testing.T) {
 		}
 
 		respBody, err := io.ReadAll(resp.Body)
-		
+
 		if err != nil {
 			t.Error(err)
 		}
 		expected := "No domain shortened"
-		
-		
+
 		assert.Equal(t, expected, string(respBody))
 
 	})
@@ -45,10 +44,10 @@ func TestGetMetrics(t *testing.T) {
 
 	t.Run("CheckSort", func(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(GetMetrics))
-		short.DomainCounter["youtube.com"] = 5;
-		short.DomainCounter["gmail.com"] = 2;
-		short.DomainCounter["whatsapp.com"] = 8;
-		short.DomainCounter["reddit.com"] = 3;
+		short.DomainCounter["youtube.com"] = 5
+		short.DomainCounter["gmail.com"] = 2
+		short.DomainCounter["whatsapp.com"] = 8
+		short.DomainCounter["reddit.com"] = 3
 
 		resp, err := http.Get(server.URL)
 		if err != nil {
@@ -59,7 +58,5 @@ func TestGetMetrics(t *testing.T) {
 		expected := "Top 3 most shortened domains are :\nwhatsapp.com: 8\nyoutube.com: 5\nreddit.com: 3\n"
 		assert.Equal(t, expected, string(respBody))
 	})
-
-	
 
 }

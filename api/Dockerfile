@@ -4,3 +4,4 @@ COPY . /urlshortner
 RUN go build /urlshortner
 EXPOSE 8080
 ENTRYPOINT ["./urlshortner"]
+
