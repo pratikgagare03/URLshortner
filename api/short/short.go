@@ -6,13 +6,13 @@ import (
 	"math/rand"
 	"net/http"
 	"net/url"
+	"os"
 	"strings"
 	"urlshortner/database"
 	"urlshortner/logger"
 
 	"github.com/go-redis/redis"
 )
-
 
 func GenerateURLString(inputURL string) (string, error) {
 
@@ -63,6 +63,11 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 		logger.Logs.Error().Msgf("Got invalid URL %s", err)
 		return
 	}
+	
+	if(parsedURL.Host == os.Getenv("DOMAIN")){
+		fmt.Fprintf(w,"Url of domain {%v} not allowed", parsedURL.Host)
+		return
+	}
 
 	key, err := rdb.HGet("OrignalToKey", inputURL).Result()
 	if err == redis.Nil {
@@ -75,6 +80,7 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Database Connection Failed", http.StatusBadGateway)
 		return
 	}
+
 
 	logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
 

@@ -106,3 +106,39 @@
 {"level":"info","time":"2024-05-02T17:13:01+05:30","message":"Exited from Short Fuction"}
 {"level":"info","time":"2024-05-02T17:16:01+05:30","message":"Entered in GetMetrics Fuction"}
 {"level":"info","time":"2024-05-02T17:16:01+05:30","message":"Exited from GetMetrics Fuction"}
+
+{"level":"info","time":"2024-05-02T17:59:39+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T17:59:39+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-02T17:59:46+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T17:59:48+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T17:59:51+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T17:59:59+05:30","message":"Entered in Short Fuction"}
+{"level":"error","time":"2024-05-02T18:00:01+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+
+{"level":"info","time":"2024-05-02T18:00:14+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T18:00:14+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-02T18:00:18+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T18:00:18+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-02T18:00:31+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-05-02T18:00:31+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-02T18:00:31+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-05-02T18:01:10+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-05-02T18:01:10+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-02T18:01:10+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-05-02T18:01:56+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T18:01:56+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-02T18:02:06+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-05-02T18:02:06+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-02T18:02:06+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-05-02T18:05:13+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T18:05:13+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-02T18:05:18+05:30","message":"Entered in Short Fuction"}
+{"level":"debug","time":"2024-05-02T18:05:18+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-02T18:05:18+05:30","message":"Exited from Short Fuction"}
+
+{"level":"info","time":"2024-05-02T18:05:50+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-02T18:05:50+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-02T18:05:53+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-05-02T18:05:59+05:30","message":"Entered in Short Fuction"}
