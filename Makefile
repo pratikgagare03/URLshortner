@@ -4,14 +4,14 @@ run:
 	@cd api; ./main
 
 dcbuild:
-	@sudo docker-compose build
+	@sudo docker compose build
 
 dcup:
 	@sudo systemctl stop redis
-	@sudo docker-compose up -d
+	@sudo docker compose up -d
 
 dcdown:
-	@sudo docker-compose down
+	@sudo docker compose down
 	
 tests:
 	@cd api/metrics;go test
