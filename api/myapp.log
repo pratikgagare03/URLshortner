@@ -1,144 +1,218 @@
 
-{"level":"info","time":"2024-05-02T14:40:37+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T14:40:37+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T15:27:28+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T15:27:28+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T15:27:36+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:36+05:30","message":"Database read successfull"}
+{"level":"debug","time":"2024-05-03T15:27:36+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-03T15:27:36+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:38+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:38+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:27:38+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:41+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:41+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:41+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:41+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:42+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:42+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:42+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:42+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:27:49+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:49+05:30","message":"Database read successfull"}
+{"level":"debug","time":"2024-05-03T15:27:49+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-03T15:27:49+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:50+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:50+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:27:50+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:57+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:57+05:30","message":"Database read successfull"}
+{"level":"debug","time":"2024-05-03T15:27:57+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-03T15:27:57+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:58+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:58+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:27:58+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:27:59+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:27:59+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:27:59+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:28:00+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:28:00+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:28:20+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:28:21+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:03+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:06+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:30:06+05:30","message":"Database read successfull"}
+{"level":"debug","time":"2024-05-03T15:30:06+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-03T15:30:06+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:30:08+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:30:08+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:30:08+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:30:08+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:30:08+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:30:08+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:30:09+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:30:09+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:30:09+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:30:09+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T15:30:09+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T15:30:09+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T15:30:11+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:11+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:20+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:20+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:30:21+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T15:38:56+05:30","message":"Entered in Redirect Fuction "}
+{"level":"info","time":"2024-05-03T15:38:56+05:30","message":"Exited from redirect Fuction"}
 
-{"level":"info","time":"2024-05-02T14:41:15+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T14:41:15+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:02:33+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:02:33+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:02:42+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:44+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:45+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:45+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:46+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:51+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:02:52+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:27+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:28+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:28+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:29+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:31+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:03:31+05:30","message":"Got invalid URL parse \"\": empty url"}
+{"level":"info","time":"2024-05-03T17:03:32+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:03:32+05:30","message":"Got invalid URL parse \"\": empty url"}
+{"level":"info","time":"2024-05-03T17:03:38+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:03:38+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:03:39+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:03:39+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:03:48+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:03:48+05:30","message":"Entered in GetMetrics Fuction"}
 
-{"level":"info","time":"2024-05-02T14:41:36+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T14:41:36+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T14:41:43+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T14:41:43+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T14:41:43+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T14:41:44+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T14:41:44+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T14:41:44+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T14:41:44+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T14:41:44+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T14:41:44+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T14:41:47+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T14:41:47+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:07:24+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:07:24+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:07:27+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:07:27+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:07:28+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:07:28+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:07:29+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:07:29+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:07:29+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:07:29+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:07:30+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:07:30+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:08:33+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:08:33+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T14:42:57+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T14:42:57+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T14:43:02+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T14:43:02+05:30","message":"Exited from GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T14:43:05+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T14:43:05+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T14:43:05+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T14:43:08+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T14:43:08+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T14:43:08+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-05-03T17:13:44+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:13:44+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:13:49+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:13:49+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:13:50+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:13:50+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:13:51+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:13:51+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T15:58:30+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T15:58:30+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T15:58:36+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T15:58:38+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T15:58:45+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T15:58:45+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
-{"level":"info","time":"2024-05-02T15:58:47+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T15:58:47+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:14:23+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:14:23+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:14:26+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:14:26+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T15:59:23+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T15:59:23+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T15:59:23+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:14:51+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:14:51+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:14:53+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:14:53+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:15:15+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:15:15+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T15:59:26+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T15:59:26+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T15:59:26+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:16:24+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:16:24+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:16:27+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:16:27+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:16:30+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:16:31+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T15:59:29+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T15:59:29+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T15:59:29+05:30","message":"Main Function over"}
-{"level":"info","time":"2024-05-02T16:00:24+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T16:00:24+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:16:46+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:16:46+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:16:48+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:16:48+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T16:00:54+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T16:00:54+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T16:00:54+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:17:34+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:17:34+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:17:36+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:17:36+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T16:00:56+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T16:00:56+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T16:00:56+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:18:29+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:18:29+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:18:32+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:18:32+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:18:33+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:18:33+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T16:01:04+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T16:01:04+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T16:01:04+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:18:51+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:18:51+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:18:53+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:18:53+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T16:01:34+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T16:01:34+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T16:01:39+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T16:01:41+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T16:01:43+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T16:01:43+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
-{"level":"info","time":"2024-05-02T16:01:45+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T16:01:45+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:19:35+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:19:35+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:19:37+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:19:37+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
 
-{"level":"info","time":"2024-05-02T16:02:00+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T16:02:00+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T16:02:04+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T16:02:04+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T16:02:04+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T16:02:08+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T16:02:08+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:19:54+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:19:54+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:19:56+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:19:56+05:30","message":"Database connection failed dial tcp :6379: connect: connection refused"}
+{"level":"info","time":"2024-05-03T17:19:57+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:19:57+05:30","message":"Database connection failed dial tcp :6379: connect: connection refused"}
 
-{"level":"info","time":"2024-05-02T17:09:51+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T17:09:51+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T17:09:51+05:30","message":"Main Function over"}
+{"level":"info","time":"2024-05-03T17:22:33+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:22:33+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:22:38+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:22:38+05:30","message":"Database connection failed dial tcp :6379: connect: connection refused"}
+{"level":"info","time":"2024-05-03T17:22:39+05:30","message":"Short Fuction Entered"}
+{"level":"error","time":"2024-05-03T17:22:39+05:30","message":"Database connection failed dial tcp :6379: connect: connection refused"}
 
-{"level":"info","time":"2024-05-02T17:11:47+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T17:11:47+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T17:12:17+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:12:19+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:12:22+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T17:12:22+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
-{"level":"info","time":"2024-05-02T17:12:22+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T17:12:22+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
-{"level":"info","time":"2024-05-02T17:12:23+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T17:12:23+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:23:05+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:23:05+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:23:05+05:30","message":"Main Function over"}
 
-{"level":"info","time":"2024-05-02T17:12:52+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T17:12:52+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T17:12:58+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:12:58+05:30","message":"Exited from GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:13:01+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T17:13:01+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T17:13:01+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T17:16:01+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:16:01+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:23:34+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:23:34+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:23:34+05:30","message":"Main Function over"}
 
-{"level":"info","time":"2024-05-02T17:59:39+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T17:59:39+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T17:59:46+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:59:48+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:59:51+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T17:59:59+05:30","message":"Entered in Short Fuction"}
-{"level":"error","time":"2024-05-02T18:00:01+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:24:00+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:24:00+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:24:00+05:30","message":"Main Function over"}
 
-{"level":"info","time":"2024-05-02T18:00:14+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T18:00:14+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T18:00:18+05:30","message":"Entered in GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T18:00:18+05:30","message":"Exited from GetMetrics Fuction"}
-{"level":"info","time":"2024-05-02T18:00:31+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T18:00:31+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T18:00:31+05:30","message":"Exited from Short Fuction"}
-{"level":"info","time":"2024-05-02T18:01:10+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T18:01:10+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T18:01:10+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-05-03T17:25:36+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:25:36+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:25:45+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T17:25:45+05:30","message":"Database read successfull"}
+{"level":"debug","time":"2024-05-03T17:25:45+05:30","message":"Recieved a key of type string from GenerateURLString"}
+{"level":"info","time":"2024-05-03T17:25:45+05:30","message":"Short Fuction Exited Successfully"}
+{"level":"info","time":"2024-05-03T17:25:50+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:25:50+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:25:51+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:25:51+05:30","message":"Exited from GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:25:54+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"info","time":"2024-05-03T17:25:54+05:30","message":"Exited from GetMetrics Fuction"}
 
-{"level":"info","time":"2024-05-02T18:01:56+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T18:01:56+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T18:02:06+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T18:02:06+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T18:02:06+05:30","message":"Exited from Short Fuction"}
+{"level":"info","time":"2024-05-03T17:26:21+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:26:22+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:26:26+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:26:26+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:26:27+05:30","message":"Entered in GetMetrics Fuction"}
+{"level":"error","time":"2024-05-03T17:26:27+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:26:29+05:30","message":"Short Fuction Entered"}
+{"level":"debug","time":"2024-05-03T17:26:29+05:30","message":"Database read successfull"}
+{"level":"info","time":"2024-05-03T17:26:29+05:30","message":"Short Fuction Exited Successfully"}
 
-{"level":"info","time":"2024-05-02T18:05:13+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T18:05:13+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T18:05:18+05:30","message":"Entered in Short Fuction"}
-{"level":"debug","time":"2024-05-02T18:05:18+05:30","message":"Recieved a key of type string from GenerateURLString"}
-{"level":"info","time":"2024-05-02T18:05:18+05:30","message":"Exited from Short Fuction"}
-
-{"level":"info","time":"2024-05-02T18:05:50+05:30","message":"Logger Initialized"}
-{"level":"info","time":"2024-05-02T18:05:50+05:30","message":"Started Main"}
-{"level":"info","time":"2024-05-02T18:05:53+05:30","message":"Entered in Short Fuction"}
-{"level":"info","time":"2024-05-02T18:05:59+05:30","message":"Entered in Short Fuction"}
+{"level":"info","time":"2024-05-03T17:26:49+05:30","message":"Logger Initialized"}
+{"level":"info","time":"2024-05-03T17:26:49+05:30","message":"Started Main"}
+{"level":"info","time":"2024-05-03T17:26:53+05:30","message":"Entered in Redirect Fuction "}
+{"level":"error","time":"2024-05-03T17:26:53+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}
+{"level":"info","time":"2024-05-03T17:26:55+05:30","message":"Entered in Redirect Fuction "}
+{"level":"error","time":"2024-05-03T17:26:55+05:30","message":"Database connection failed dial tcp: lookup db on 127.0.0.53:53: server misbehaving"}

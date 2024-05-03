@@ -3,15 +3,20 @@ package metrics
 import (
 	"fmt"
 	"net/http"
+	"os"
 	"sort"
 	"strconv"
 	"urlshortner/database"
 	"urlshortner/logger"
+
+	"github.com/go-redis/redis"
 )
 
 func GetMetrics(w http.ResponseWriter, r *http.Request) {
 	logger.Logs.Info().Msg("Entered in GetMetrics Fuction")
-	rdb := database.CreateClient(0)
+
+	dbno, _ := strconv.Atoi(os.Getenv("DBNO"))
+	rdb := database.CreateClient(dbno)
 	defer rdb.Close()
 
 	if r.Method != http.MethodGet {
@@ -20,16 +25,19 @@ func GetMetrics(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	mapLen := min(3, rdb.HLen("DomainCounter").Val())
-	if mapLen == 0 {
+	DomainCounter, err := rdb.HGetAll("DomainCounter").Result()
+	if err == redis.Nil {
 		fmt.Fprint(w, "No domain shortened")
 		return
-	} else {
-		fmt.Fprintf(w, "Top %d most shortened domains are :\n", mapLen)
+	} else if err != nil {
+		logger.Logs.Error().Msgf("Database connection failed %s", err)
+		http.Error(w, "Database Connection Failed", http.StatusBadGateway)
+		return
 	}
 
-	DomainCounter := rdb.HGetAll("DomainCounter").Val()
-	
+	mapLen := min(3, rdb.HLen("DomainCounter").Val())
+	fmt.Fprintf(w, "Top %d most shortened domains are :\n", mapLen)
+
 	type kv struct {
 		Key   string
 		Value int64

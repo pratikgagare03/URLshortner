@@ -15,11 +15,11 @@ func init() {
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY,
 		0664,
 	)
-	File.WriteString("\n")
 	if err != nil {
 		panic(err)
 	}
-
+	
+	File.WriteString("\n")
 	Logs = zerolog.New(File).With().Timestamp().Logger()
 	Logs.Info().Msg("Logger Initialized")
 

@@ -7,24 +7,25 @@ dcbuild:
 	@sudo docker-compose build
 
 dcup:
+	@sudo systemctl stop redis
 	@sudo docker-compose up -d
 
 dcdown:
 	@sudo docker-compose down
 	
 tests:
-	@cd metrics;go test
-	@cd short;go test
-	@cd redirection;go test
+	@cd api/metrics;go test
+	@cd api/short;go test
+	@cd api/redirection;go test
 
 testscover:
-	@cd metrics;go test -cover
-	@cd short;go test -cover
-	@cd redirection;go test -cover
+	@cd api/metrics;go test -cover
+	@cd api/short;go test -cover
+	@cd api/redirection;go test -cover
 
 testscoverhtml:
-	@go test -coverprofile=tests/coverage.out ./...
-	@go tool cover -html=tests/coverage.out -o tests/coverage.html
+	@cd api;go test -coverprofile=tests/coverage.out ./...
+	@cd api;go tool cover -html=tests/coverage.out -o tests/coverage.html
 	
 clear:
 	@rm -f api/main

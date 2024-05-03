@@ -2,6 +2,8 @@ package redirection
 
 import (
 	"net/http"
+	"os"
+	"strconv"
 	"urlshortner/database"
 	"urlshortner/logger"
 
@@ -11,7 +13,8 @@ import (
 func Redirect(w http.ResponseWriter, r *http.Request) {
 	logger.Logs.Info().Msg("Entered in Redirect Fuction ")
 
-	rdb := database.CreateClient(0)
+	dbno, _ := strconv.Atoi(os.Getenv("DBNO"))
+	rdb := database.CreateClient(dbno)
 	defer rdb.Close()
 
 	if r.Method != http.MethodGet {

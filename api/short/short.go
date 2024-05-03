@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"strconv"
 	"strings"
 	"urlshortner/database"
 	"urlshortner/logger"
@@ -43,9 +44,10 @@ func GenerateURLString(inputURL string) (string, error) {
 }
 
 func MakeShort(w http.ResponseWriter, r *http.Request) {
-	logger.Logs.Info().Msg("Entered in Short Fuction")
+	logger.Logs.Info().Msg("Short Fuction Entered")
 
-	rdb := database.CreateClient(0)
+	dbno, _ := strconv.Atoi(os.Getenv("DBNO"))
+	rdb := database.CreateClient(dbno)
 	defer rdb.Close()
 
 	if r.Method != http.MethodPost {
@@ -56,6 +58,7 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 
 	inputURL := r.FormValue("url")
 
+	//converts string into url and also check for invalid url
 	parsedURL, err := url.ParseRequestURI(inputURL)
 
 	if err != nil {
@@ -63,38 +66,37 @@ func MakeShort(w http.ResponseWriter, r *http.Request) {
 		logger.Logs.Error().Msgf("Got invalid URL %s", err)
 		return
 	}
-	
-	if(parsedURL.Host == os.Getenv("DOMAIN")){
-		fmt.Fprintf(w,"Url of domain {%v} not allowed", parsedURL.Host)
+
+	if parsedURL.Host == r.Host {
+		http.Error(w, "Trying to short url of same domain", http.StatusForbidden)
+		fmt.Fprintf(w, "Can't short Url of domain {%v}", parsedURL.Host)
 		return
 	}
 
+	//checking the db for already present state
 	key, err := rdb.HGet("OrignalToKey", inputURL).Result()
 	if err == redis.Nil {
+		logger.Logs.Debug().Msgf("Database read successfull")
 		key, _ = GenerateURLString(inputURL)
-		// logger.Logs.Debug().Msgf("Required %v iterations for generating unique key", cnt)
-		// _, err := rdb.HGet("OrignalToKey", inputURL).Result()
-		// ok = !ok
+		logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
+		//print required iterations
 	} else if err != nil {
 		logger.Logs.Error().Msgf("Database connection failed %s", err)
 		http.Error(w, "Database Connection Failed", http.StatusBadGateway)
 		return
+	} else {
+		logger.Logs.Debug().Msgf("Database read successfull")
 	}
 
-
-	logger.Logs.Debug().Msgf("Recieved a key of type %T from GenerateURLString", key)
-
+	//structuring the short url
 	shortURL := "http://" + r.Host + "/" + key
 
+	//storing maps in database
 	rdb.HIncrBy("DomainCounter", parsedURL.Hostname(), 1)
 	rdb.HSet("OrignalToKey", inputURL, key)
 	rdb.HSet("KeyToOrignal", key, inputURL)
 
-	// DomainCounter[parsedURL.Hostname()]++
-	// OrignalToKey[inputURL] = key
-	// KeyToOrignal[key] = inputURL
-
 	w.WriteHeader(http.StatusOK)
 	fmt.Fprintf(w, "Shortened URL: %s\n", shortURL)
-	logger.Logs.Info().Msg("Exited from Short Fuction")
+	logger.Logs.Info().Msg("Short Fuction Exited Successfully")
 }

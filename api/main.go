@@ -21,7 +21,6 @@ func setupRoutes() {
 func startServer() {
 	fmt.Printf("localhost started at port%v", os.Getenv("APP_PORT"))
 	err := http.ListenAndServe(os.Getenv("APP_PORT"), nil)
-
 	if err != nil {
 		logger.Logs.Error().Err(err)
 		return
@@ -29,12 +28,13 @@ func startServer() {
 }
 
 func main() {
+	logger.Logs.Info().Msg("Started Main")
 	err := godotenv.Load(".env")
 	if err != nil {
 		logger.Logs.Error().Err(err)
 	}
 	defer logger.File.Close()
-	logger.Logs.Info().Msg("Started Main")
+
 
 	setupRoutes()
 	startServer()

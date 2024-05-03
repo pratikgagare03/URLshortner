@@ -4,16 +4,30 @@ import (
 	"io"
 	"net/http"
 	"net/http/httptest"
-	"urlshortner/short"
+	"os"
+	"strconv"
+	"urlshortner/database"
 
 	"testing"
 
+	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestGetMetrics(t *testing.T) {
+	err := godotenv.Load("../.env")
+	if err != nil {
+		panic(err)
+	}
+	os.Setenv("DBNO", "0")
+
+	dbno, _ := strconv.Atoi(os.Getenv("DBNO"))
+	rdb := database.CreateClient(dbno)
+	defer rdb.FlushDB()
+
 	t.Run("EmptyMap", func(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(GetMetrics))
+		rdb.FlushAll()
 		resp, err := http.Get(server.URL)
 
 		if err != nil {
@@ -44,10 +58,10 @@ func TestGetMetrics(t *testing.T) {
 
 	t.Run("CheckSort", func(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(GetMetrics))
-		short.DomainCounter["youtube.com"] = 5
-		short.DomainCounter["gmail.com"] = 2
-		short.DomainCounter["whatsapp.com"] = 8
-		short.DomainCounter["reddit.com"] = 3
+		rdb.HIncrBy("DomainCounter", "youtube.com", 5)
+		rdb.HIncrBy("DomainCounter", "gmail.com", 2)
+		rdb.HIncrBy("DomainCounter", "whatsapp.com", 8)
+		rdb.HIncrBy("DomainCounter", "reddit.com", 3)
 
 		resp, err := http.Get(server.URL)
 		if err != nil {
