@@ -7,7 +7,6 @@ dcbuild:
 	@sudo docker compose build
 
 dcup:
-	@sudo systemctl stop redis
 	@sudo docker compose up -d
 
 dcdown:
